@@ -18,5 +18,3 @@
 
 ![PyQ](assets/pyq.png)
 
----
-
