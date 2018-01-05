@@ -6,9 +6,10 @@
 
 - 株式会社ビープラウド所属(2017.09~)
 
-![BeProud](https://github.com/NaoY-2501/GitPitch-Slides/blob/master/assets/beproud.png)
 
-![connpass](https://github.com/NaoY-2501/GitPitch-Slides/blob/master/assets/connpass.png)
+![BeProud](assets/beproud.png)
+
+![connpass](assets/connpass.png)
 
 - みんなのPython勉強会スタッフ(2017.09~)
 
