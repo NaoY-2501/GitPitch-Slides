@@ -2,7 +2,7 @@
 
 - 横山 直敬/Naotaka Yokoyama
 
-- Twitter: @NaoY_py(https://twitter.com/NaoY_py)
+- Twitter: [@NaoY_py](https://twitter.com/NaoY_py)
 
 - 株式会社ビープラウド所属(2017.09~)
 
