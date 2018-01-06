@@ -8,7 +8,16 @@
 
 - 株式会社ビープラウド所属(2017.09~)
 
+<table border="0">
+<tr>
+<td>
 ![BeProud](assets/beproud.png)
+</td>
+<td>
+![connpass](assets/connpass.png)
+</td>
+</tr>
+</table>
 
 ---
 
