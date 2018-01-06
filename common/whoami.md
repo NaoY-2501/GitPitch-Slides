@@ -11,13 +11,13 @@
 <table border="0">
 <tr>
 <td>
-![BeProud](assets/beproud.png)
+![BeProud](assets/images/beproud.png)
 </td>
 <td>
-![connpass](assets/connpass.png)
+![connpass](assets/images/connpass.png)
 </td>
 <td>
-![PyQ](assets/pyq.png)
+![PyQ](assets/images/pyq.png)
 </td>
 </tr>
 </table>
