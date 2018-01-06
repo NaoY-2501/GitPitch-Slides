@@ -10,23 +10,15 @@
 
 <table border="0">
 <tr>
-    <td>
-        ![BeProud](assets/beproud.png)
-    </td>
-    <td>
-        ![connpass](assets/connpass.png)
-    </td>
-    <td>
-        ![PyQ](assets/pyq.png)
-    </td>
+<td>
+![BeProud](assets/beproud.png)
+</td>
+<td>
+![connpass](assets/connpass.png)
+</td>
+<td>
+![PyQ](assets/pyq.png)
+</td>
 </tr>
 </table>
-
----
-
-![connpass](assets/connpass.png)
-
----
-
-![PyQ](assets/pyq.png)
 
