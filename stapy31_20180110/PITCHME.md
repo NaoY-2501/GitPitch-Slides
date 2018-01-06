@@ -1,11 +1,11 @@
-# Pythonでスタートして、Pythonを仕事にするまでの話
+Pythonでスタートして、Pythonを仕事にするまでの話
 
- 株式会社ビープラウド 横山 直敬
- @NaoY_py
+株式会社ビープラウド 横山 直敬
+@NaoY_py
 
- ---?include=common/whoami.md
+---?include=common/whoami.md
 
- ---
+---
 
 ## おしながき
 
