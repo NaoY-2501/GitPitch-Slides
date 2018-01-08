@@ -45,9 +45,9 @@
 
   - Web系, データサイエンス系問わず
 
-  - チュートリアルやったり, 面白そうなライブラリ触ったり
+  - チュートリアル・ 面白そうなライブラリ
 
-  - 中途半端でもいいからとりあえずやってみるのがいい(と思っている
+  - 中途半端でもいいからとりあえずやってみた
 
 - 調べました, 記事だけ読みました では説得力ない
 
@@ -65,10 +65,14 @@
 
 ####  やってみた系
 
-- connpass APIでPython勉強会開催数の推移を調べてみる
+- Python勉強会開催数の推移を調べてみる
 
-  - Requests, Folium, Jupyter Notebook
+  - connpass API, Folium, Jupyter Notebook
 
 - IT勉強会検索サイトを作ってみる
 
-  - Django, Requests, Pandas
+  - connpass API, Django, Pandas, Heroku
+
+- チャットボット作ってみる
+
+  - Discord.py, Amazon EC2
