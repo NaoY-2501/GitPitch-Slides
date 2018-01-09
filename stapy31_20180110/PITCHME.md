@@ -77,6 +77,8 @@
 
 - 学生の頃に少しだけ使っていた
 
+ - Tweetを介して感情は伝播するかという研究テーマ
+
  - Tweetの感情分析(自然言語処理)
 
 - Pythonに決めたワケ
@@ -161,15 +163,15 @@
 
 LT駆動学習の成果
 
-- Python勉強会開催数の推移を調べてみる
+- Python勉強会開催数の推移を調べてみた
 
   - connpass API, Folium, Jupyter Notebook
 
-- IT勉強会検索サイトを作ってみる
+- IT勉強会検索サイトを作ってみた
 
   - connpass API, Django, Pandas, Heroku
 
-- チャットボット作ってみる
+- チャットボットを作ってみた
 
   - Discord.py, Amazon EC2
 
@@ -210,6 +212,8 @@ LT駆動学習の成果
   - 猛者目線のオススメ技術書
 
 - <s>飲み会楽しい</s>
+
+---
 
 #### Pythonコミュニティいろいろ
 
