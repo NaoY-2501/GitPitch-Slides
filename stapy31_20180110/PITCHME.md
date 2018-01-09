@@ -209,6 +209,18 @@ LT駆動学習の成果
 
 +++
 
+#### Pythonコミュニティいろいろ
+
+- [PyCon JP](https://www.pycon.jp/)
+
+- [みんなのPython勉強会](https://startpython.connpass.com/) #stapy
+
+- [Python mini hack-a-thon](https://pyhack.connpass.com/) #pyhack
+
+- [Pythonもくもく会](https://mokupy.connpass.com/) #mokupy
+
++++
+
 #### コミュニティに入ると何が嬉しいか
 
 - もくもく会でのLTやSlackでの会話が技術を知るきっかけに
@@ -225,15 +237,15 @@ LT駆動学習の成果
 
 +++
 
-#### Pythonコミュニティいろいろ
+### Q. 猛者が多くて怖そう
 
-- [PyCon JP](https://www.pycon.jp/)
++++
 
-- [みんなのPython勉強会](https://startpython.connpass.com/) #stapy
+### A. 大丈夫
 
-- [Python mini hack-a-thon](https://pyhack.connpass.com/) #pyhack
+- 学ぶ姿勢のある人は歓迎される
 
-- [Pythonもくもく会](https://mokupy.connpass.com/) #mokupy
+- 学んだことを発信して還元することも重要
 
 +++
 
