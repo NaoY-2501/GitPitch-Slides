@@ -126,7 +126,9 @@
 
 - #stapyでLT駆動学習していた
 
-- 何度かLTをするうちに顔を覚えてもらった
+- 3回ほどLTをした
+
+- そのうちに顔を覚えてもらった
 
 - スカウトされた
 
@@ -186,15 +188,15 @@
 
 LT駆動学習の成果
 
-- Python勉強会開催数の推移を調べてみた
+- [Python勉強会開催数の推移を調べてみた](https://www.slideshare.net/NaoY-2501/stapy22-lt)
 
-  - connpass API, Folium, Jupyter Notebook
+  - connpass API, Folium, Jupyter Notebook, [GitHub.io](https://naoy-2501.github.io/pythonStudyGroupData/)
 
-- IT勉強会検索サイトを作ってみた
+- [IT勉強会検索サイトを作ってみた](http://comnnpass.herokuapp.com/)
 
   - connpass API, Django, Pandas, Heroku
 
-- チャットボットを作ってみた
+- [チャットボットを作ってみた](https://slideship.com/users/@nao/presentations/2017/12/R8tcy87TvfAt2Z5EUJJitf/)
 
   - Discord.py, Amazon EC2
 
@@ -260,6 +262,8 @@ LT駆動学習の成果
   - エンジニアとつながる
 
 **コミュニティに入ると一石二鳥**
+
+
 
 +++
 
