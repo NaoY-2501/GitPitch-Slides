@@ -115,8 +115,6 @@
 
 #### LT駆動学習してたらスタッフになった件
 
-#stapyスタッフになった経緯
-
 - #stapyでLT駆動学習していた
 
 - 何度かLTをするうちに顔を覚えてもらった
@@ -229,13 +227,13 @@ LT駆動学習の成果
 
 #### Pythonコミュニティいろいろ
 
-- PyCon JP
+- [PyCon JP](https://www.pycon.jp/)
 
-- みんなのPython勉強会 #stapy
+- [みんなのPython勉強会](https://startpython.connpass.com/) #stapy
 
-- Python mini hack-a-thon #pyhack
+- [Python mini hack-a-thon](https://pyhack.connpass.com/) #pyhack
 
-- Pythonもくもく会 #mokupy
+- [Pythonもくもく会](https://mokupy.connpass.com/) #mokupy
 
 +++
 
