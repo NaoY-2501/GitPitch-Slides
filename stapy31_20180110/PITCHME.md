@@ -282,7 +282,7 @@ LT駆動学習の成果
 
 ## 火を焚べ続けよう
 
-![fire](assets/images/takibi.png)
+![fire](stapy31_20180110/assets/images/takibi.png)
 
 +++
 
