@@ -83,6 +83,8 @@
 
 ### コードが書けるエンジニアになりたい
 
+![engineer](stapy31_20180110/assets/images/engineer.png)
+
 ---
 
 ## Pythonでスタートする
@@ -164,6 +166,8 @@
 +++
 
 ### いきなり仕事探せと言われても…
+
+![job](stapy31_20180110/assets/images/change_job.png)
 
 +++
 
