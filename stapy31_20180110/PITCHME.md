@@ -122,11 +122,23 @@
 
 +++
 
+#### 実際にLT駆動学習してみた
+
+- ハロウィン前後の渋谷の賑わいを比較してみた
+
+- [Pythonって実際どれくらい盛り上がってるの？](https://www.slideshare.net/NaoY-2501/stapy22-lt)
+
+- [初めてWebアプリを作ってみた話](https://www.slideshare.net/NaoY-2501/stapy23-lt)
+
+- [初心者による初心者のためのPythonの学び方](https://www.slideshare.net/NaoY-2501/oss-study19lt)(#stapy以外でのLT)
+
+- [チャットボットを作った話]((https://slideship.com/users/@nao/presentations/2017/12/R8tcy87TvfAt2Z5EUJJitf/))(#stapyでのLT)
+
++++
+
 #### LT駆動学習してたらスタッフになった件
 
 - #stapyでLT駆動学習していた
-
-- 3回ほどLTをした
 
 - そのうちに顔を覚えてもらった
 
