@@ -130,7 +130,7 @@
 
 - [初心者による初心者のためのPythonの学び方](https://www.slideshare.net/NaoY-2501/oss-study19lt)(#stapy以外でのLT)
 
-- [チャットボットを作った話]((https://slideship.com/users/@nao/presentations/2017/12/R8tcy87TvfAt2Z5EUJJitf/))(#stapyでのLT)
+- [チャットボットを作った話]((https://slideship.com/users/@nao/presentations/2017/12/R8tcy87TvfAt2Z5EUJJitf/))(#stapy以外でのLT)
 
 +++
 
