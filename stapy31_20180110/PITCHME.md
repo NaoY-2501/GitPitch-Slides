@@ -282,8 +282,6 @@ LT駆動学習の成果
 
 ## 火を焚べ続けよう
 
-![fire](http://1.bp.blogspot.com/-cucjmccdRJk/VA7mG0nGn3I/AAAAAAAAmK8/NpLiYZ8DcUE/s800/takibi.png)
-
 +++
 
 ## 火を焚べ続けよう
@@ -297,8 +295,6 @@ LT駆動学習の成果
   - エンジニアとつながる
 
 **コミュニティに入ると一石二鳥**
-
-
 
 +++
 
