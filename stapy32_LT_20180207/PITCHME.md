@@ -94,9 +94,9 @@
 
 - 改ページの際に指定する
 
-> ---?image=foo/bar.png
+- `&size=` でサイズ指定できる
 
-- 末尾でサイズ指定できる
+> ---?image=foo/bar.png
 
 > &size=auto n%
 > &size=w% h%
