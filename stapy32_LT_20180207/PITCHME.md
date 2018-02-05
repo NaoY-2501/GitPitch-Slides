@@ -1,6 +1,6 @@
-## スライドをGitHubで管理しよう
+## スライドをGitで管理しよう
 
-### GitPitchのススメ
+## GitPitchのススメ
 
 2018.02.07 みんなのPython勉強会#32
 
@@ -30,10 +30,30 @@
 
 - リポジトリにPUSHする
 
-- `https://gitpitch.com/user/repo` にアクセスする
+- `https://gitpitch.com/user/repo` にアクセス
 
 - スライドが公開できる
 
+---
+
+## GitPitchの独自記法
+
+- 改ページ(右に追加)
+
+```
+---
+```
++++
+
+## GitPitchの独自記法
+
+- 改ページ(下に追加)・このページのこと
+
+- トピックを掘り下げるときに便利 
+
+```
++++
+```
 ---
 
 ## GitPitchのここがハマる
@@ -42,14 +62,14 @@
 
 	- スライドごとにディレクトリ分けたい…！
 	
-- `https://gitpitch.com/user/repo?p=Directory/` で解決
+`https://gitpitch.com/user/repo?p=Directory/` で解決
 
 ---
 
 ## ディレクトリ構成例
 
 ```
-Slides
+repo
 ├ assets
 │ ├ css
 │ │ └ PITCHME.css
@@ -66,7 +86,7 @@ Slides
 └ README.md
 ```
 
-``https://gitpitch.com/user/Slides?p=Slide_1``
+``https://gitpitch.com/user/repo?p=Slide_1``
 
 ---
 
