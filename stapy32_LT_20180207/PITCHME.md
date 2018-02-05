@@ -82,7 +82,7 @@
 
 - ルートディレクトリからの絶対パス
 
-> '![alt](Slide_1/assets/images/foo.png)'
+> \!\[alt](Slide_1/assets/images/foo.png)
 
 - 末尾でサイズ指定できる
 
