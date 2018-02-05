@@ -12,15 +12,15 @@
 
 ## GitPitchってなによ
 
-- **Markdown**で書いたスライドを**GitHub**で管理できる
+- **Markdown**で書いたスライドを**Git**で管理できる
 
-	- GitHub, GitLab, BitBucketにも対応
+	- GitHub, GitLab, Bitbucketに対応
 
-- URLを指定するだけでスライドが公開できる
+- **URLを指定するだけでスライドが公開できる**
 
 ---
 
-### とても便利
+## とても便利
 
 ---
 
@@ -28,12 +28,28 @@
 
 - `PITCHME.md` に中身を書いていく
 
+- リポジトリにPUSHする
+
+- `https://gitpitch.com/user/repo` にアクセスする
+
+- スライドが公開できる
+
+---
+
+## GitPitchのここがハマる
+
+- URL指定
+
+	- スライドごとにディレクトリ分けたい…！
+	
+- `https://gitpitch.com/user/repo?p=Directory/` で解決
+
 ---
 
 ## ディレクトリ構成例
 
 ```
-GitPitch_Slides
+Slides
 ├ assets
 │ ├ css
 │ │ └ PITCHME.css
@@ -49,3 +65,8 @@ GitPitch_Slides
 │ 　 　 └ hoge.png
 └ README.md
 ```
+
+``https://gitpitch.com/user/Slides?p=Slide_1``
+
+---
+
