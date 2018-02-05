@@ -84,7 +84,7 @@
 
 > \!\[alt](Slide_1/assets/images/foo.png)
 
-+++?images=stapy32_LT_20180207/assets/images/laptop_man.png
++++?image=stapy32_LT_20180207/assets/images/laptop_man.png
 
 ## GitPitchの独自記法
 
