@@ -103,8 +103,6 @@
 
 ---?image=assets/images/beproud.png
 
----
-
 ## GitPitchのここがハマる
 
 - URL指定
