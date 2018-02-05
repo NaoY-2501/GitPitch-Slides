@@ -5,7 +5,7 @@
 
 横山 直敬 (@NaoY_py)
 
----?include=common/whoami.md
+---?include=common/whoami_stapy.md
 
 ---
 
