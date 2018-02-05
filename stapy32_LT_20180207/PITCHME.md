@@ -84,7 +84,7 @@
 
 > \!\[alt](Slide_1/assets/images/foo.png)
 
-+++
++++?image=assets/images/connpass.png&size=50%
 
 ## GitPitchの独自記法
 
