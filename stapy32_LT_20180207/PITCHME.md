@@ -84,7 +84,7 @@
 
 > \!\[alt](Slide_1/assets/images/foo.png)
 
-+++?image=assets/images/connpass.png&size=50%
++++?images=stapy32\_LT\_20180207/assets/images/laptop_man.png
 
 ## GitPitchの独自記法
 
@@ -92,7 +92,7 @@
 
 - ルートディレクトリからの絶対パス
 
-- 改ページの際に指定する
+- 改ページで指定する(下方向の改ページもOK)
 
 - `&size=` でサイズ指定できる
 
