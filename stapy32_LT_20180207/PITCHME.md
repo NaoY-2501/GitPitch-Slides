@@ -40,9 +40,8 @@
 
 - 改ページ(右に追加)
 
-```
----
-```
+> ---
+
 +++
 
 ## GitPitchの独自記法
@@ -51,9 +50,8 @@
 
 - トピックを掘り下げるときに便利 
 
-```
-+++
-```
+> +++
+
 ---
 
 ## GitPitchのここがハマる
@@ -62,7 +60,9 @@
 
 	- スライドごとにディレクトリ分けたい…！
 	
-`https://gitpitch.com/user/repo?p=Directory/` で解決
+	- URL末尾にディレクトリ名をつける
+	
+`https://gitpitch.com/user/repo?p=Directory/` 
 
 ---
 
@@ -87,6 +87,4 @@ repo
 ```
 
 ``https://gitpitch.com/user/repo?p=Slide_1``
-
----
 
