@@ -78,17 +78,30 @@
 
 ## GitPitchの独自記法
 
-- 画像の挿入
+- 画像の挿入 その1
 
 - ルートディレクトリからの絶対パス
 
 > \!\[alt](Slide_1/assets/images/foo.png)
+
++++
+
+## GitPitchの独自記法
+
+- 画像の挿入 その2
+
+- ルートディレクトリからの絶対パス
+
+> ---?image=foo/bar.png
 
 - 末尾でサイズ指定できる
 
 > &size=auto n%
 > &size=w% h%
 
++++
+
+---?image=assets/images/beproud.png&size=auto 50%
 ---
 
 ## GitPitchのここがハマる
