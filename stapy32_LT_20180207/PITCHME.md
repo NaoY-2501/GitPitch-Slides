@@ -101,7 +101,8 @@
 
 +++
 
----?image=assets/images/beproud.png&size=auto 50%
+---?image=assets/images/beproud.png
+
 ---
 
 ## GitPitchのここがハマる
