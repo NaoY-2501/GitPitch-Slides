@@ -12,6 +12,8 @@
 
 ## GitPitchってなによ
 
+- [GitPitch](https://gitpitch.com/)
+
 - **Markdown**で書いたスライドを**Git**で管理できる
 
 	- GitHub, GitLab, Bitbucketに対応
@@ -142,17 +144,7 @@ PITCHME.css
 
 ## GitPitchのここがハマる
 
-- URL指定
-
-	- スライドごとにディレクトリ分けたい…！
-	
-	- URL末尾にディレクトリ名をつける
-	
-`https://gitpitch.com/user/repo?p=Directory/` 
-
----
-
-## ディレクトリ構成例
+- スライドごとにディレクトリ分けたい…！
 
 ```
 repo
@@ -172,5 +164,13 @@ repo
 └ README.md
 ```
 
-URL例: ``gitpitch.com/user/repo?p=Slide_1``
++++
+
+## GitPitchのここがハマる
+
+- これで解決できる
+
+	- URL末尾にディレクトリ名をつける
+	
+`https://gitpitch.com/user/repo?p=Slide_1/`
 
