@@ -174,3 +174,15 @@ repo
 	
 `https://gitpitch.com/user/repo?p=Slide_1/`
 
+---
+
+## GitPitchはいいぞ
+
+---
+
+## 参考
+
+- [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki)
+
+- [NaoY-2501/GitPitch-Slides](https://github.com/NaoY-2501/GitPitch-Slides)
+
