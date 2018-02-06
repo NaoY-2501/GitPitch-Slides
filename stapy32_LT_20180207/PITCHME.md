@@ -94,11 +94,11 @@
 
 - 改ページで指定する(下方向の改ページもOK)
 
+- `size` オプション でサイズ指定できる
+
+	- `&size=auto n%`  `&size=w% h%`
+
 > ---?image=foo/bar.png
-
-- `&size=` でサイズ指定できる
-
-> &size=auto n%, &size=w% h%
 
 ---
 
