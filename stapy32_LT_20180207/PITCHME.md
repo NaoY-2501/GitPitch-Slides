@@ -148,7 +148,7 @@ PITCHME.css
 
 	- CSS, テーマ, スライド時アニメーション
 	
-- 続きは[公式ドキュメントで
+- 続きは[公式ドキュメント](https://github.com/gitpitch/gitpitch/wiki))で
 
 ---
 
