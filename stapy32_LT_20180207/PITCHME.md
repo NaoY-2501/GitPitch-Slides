@@ -96,7 +96,7 @@
 
 - `size` オプション でサイズ指定できる
 
-	- `&size=auto n%`  `&size=w% h%`
+	- `&size=auto n% , &size=w% h%` など
 
 > ---?image=foo/bar.png
 
