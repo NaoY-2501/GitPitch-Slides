@@ -136,5 +136,5 @@ repo
 └ README.md
 ```
 
-``https://gitpitch.com/user/repo?p=Slide_1``
+URL例: ``https://gitpitch.com/user/repo?p=Slide_1``
 
