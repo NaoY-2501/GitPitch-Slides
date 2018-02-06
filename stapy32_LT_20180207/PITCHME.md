@@ -108,9 +108,10 @@
 
 - スライドと同じディレクトリに ``PITCHME.yaml`` を置く
 
-```PITCHME.yaml
+```
 theme-override : assets/css/PITCHME.css
 ```
+PITCHME.yaml
 
 +++
 
@@ -135,6 +136,7 @@ theme-override : assets/css/PITCHME.css
     text-transform: none;
 }
 ```
+PITCHME.css
 
 ---
 
