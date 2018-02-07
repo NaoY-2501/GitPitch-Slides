@@ -108,7 +108,9 @@
 
 - CSSが使える
 
-- スライドと同じディレクトリに ``PITCHME.yaml`` を置く
+	- 書式周りの設定が多い
+
+-  ``PITCHME.yaml`` でCSSを設定
 
 ```
 theme-override : assets/css/PITCHME.css
@@ -146,9 +148,11 @@ PITCHME.css
 
 - 様々な設定を書くファイル
 
-	- CSS, テーマ, フォント, スライド時アニメーション
+　- ``PITCHME.md`` と同じ階層に置く
+
+	- CSS, テーマ, スライド時アニメーション
 	
-	- スライドマスター設定がコードでできる！
+	- スライドマスター設定がコードでできる
 	
 - 続きは[公式ドキュメント](https://github.com/gitpitch/gitpitch/wiki)で
 
