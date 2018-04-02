@@ -24,7 +24,9 @@
 
 **国内・海外スピーカーの基調講演**
 
-![基調講演](stapy34_LT_20180403/assets/img/keynotes.png)
+![基調講演1](stapy34_LT_20180403/assets/img/wang.jpg)
+
+![基調講演2](stapy34_LT_20180403/assets/img/horikoshi.jpg)
 
 +++
 	
