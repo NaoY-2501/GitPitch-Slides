@@ -18,7 +18,7 @@
 
 **参加者700人以上**(PyCon JP 2017)
 
-![参加者](stapy34_LT_20180403/assets/img/participants.png)
+![参加者](stapy34_LT_20180403/assets/img/participants.jpg)
 
 +++
 
