@@ -1,4 +1,4 @@
-## PyCon JP 2018 スタッフ募集
+## Join Us !! PyCon JP 2018
 ![logo](stapy34_LT_20180403/assets/img/logo.png)
 
 2018.04.03 みんなのPython勉強会#34
