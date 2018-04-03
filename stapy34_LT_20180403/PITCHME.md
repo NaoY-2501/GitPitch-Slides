@@ -133,5 +133,4 @@
 
 **より素敵なPyCon JPを一緒に作るスタッフ求む！**
 
-申込みフォーム
 **bit.ly/apply_pyconjp2018_staff**
