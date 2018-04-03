@@ -4,7 +4,7 @@
 2018.04.03 みんなのPython勉強会#34
 横山 直敬(@NaoY_py)
 
----?include=common/whoami_stapy.md
+---?include=common/whoami_pyconjp.md
 
 ---
 
