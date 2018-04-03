@@ -126,9 +126,9 @@
 - 当日の参加者受付
 
 ---
+
+## Join Us !! 
  
- ## Join Us !! 
- 
- ![logo](stapy34_LT_20180403/assets/img/logo.png)
+![logo](stapy34_LT_20180403/assets/img/logo.png)
 
 **より素敵なPyCon JPを一緒に作るスタッフ求む！**
