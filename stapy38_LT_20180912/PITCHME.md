@@ -13,7 +13,7 @@
 
 サンプルコード
 
-```
+```python
 import qrcode
 qr = qrcode.QRCode(
     version=1,
