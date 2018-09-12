@@ -33,7 +33,7 @@ img = qr.make_image(fill_color="black", back_color="white")
 
 - `PNG`や`SVG`
 
---
+---
 
 QRコードをWebページに表示したい
 
