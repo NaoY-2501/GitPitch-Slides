@@ -160,7 +160,7 @@ $ . env/bin/activate
 (env) $ python manage.py runserver
 ```
 
-[Djnago1.9.3](localhost:8001/)
+[Djnago2.1.4](localhost:8001/)
 
 ---
 
