@@ -277,3 +277,116 @@ print(rendered)
 
 ---
 
+### 出来上がったHTML
+
+```html
+<!--jinja2/rendered.html-->
+<html>
+<head>
+    <title>BP Advent Calendar 2018</title>
+</head>
+<body>
+    <div class="normal">
+        <h1>dictionary</h1>
+        <table>
+            <tr><th>key</th><th>value</th></tr>
+            
+            <tr><td>foo</td><td>foo</td></tr>
+            
+            <tr><td>bar</td><td>bar</td></tr>
+            
+            <tr><td>baz</td><td>baz</td></tr>
+            
+        </table>
+    </div>
+
+    <div class="defaultdict-list">
+        <h1>defaultdict(list)</h1>
+        <table>
+            <tr><th>key</th><th>value</th></tr>
+            
+            <tr><td>yellow</td><td>[1, 3]</td></tr>
+            
+            <tr><td>blue</td><td>[2, 4]</td></tr>
+            
+            <tr><td>red</td><td>[1]</td></tr>
+            
+        </table>
+    </div>
+    
+    <div class="defaultdict-int">
+        <h1>defaultdict(int)</h1>
+        <table>
+            <tr><th>key</th><th>value</th></tr>
+            
+            <tr><td>ham</td><td>2</td></tr>
+            
+            <tr><td>spam</td><td>3</td></tr>
+            
+            <tr><td>eggs</td><td>2</td></tr>
+            
+        </table>
+    </div>
+
+    <div class="OrderedDict">
+        <h1>OrderedDict</h1>
+        <table>
+            <tr><th>key</th><th>value</th></tr>
+            
+            <tr><td>0</td><td>zero</td></tr>
+            
+            <tr><td>1</td><td>one</td></tr>
+            
+            <tr><td>2</td><td>two</td></tr>
+            
+        </table>
+    </div>
+
+</body>
+</html>
+```
+
+---
+
+**(｀・ω・´)**
+
+---
+
+### なぜDjangoでレンダリングされないのか
+
+仮設
+
+- defaultdictとOrderedDictの実装の違い
+
+OrderedDict
+
+> 通常の dict メソッドをサポートする、辞書のサブクラスのインスタンスを返します。
+
+defaultdict
+
+> 新しいディクショナリ様のオブジェクトを返します
+
+[collections --- コンテナデータ型 — Python 3.7.1 ドキュメント](https://docs.python.org/ja/3/library/collections.html)
+
+---
+
+### そもそも
+
+[@kashew_nuts](https://twitter.com/kashew_nuts)氏からの情報
+
+> @NaoY_py
+なんかDjango1.3ぐらいのときに報告されているようですね。そちらでも辞書を使うことを検討しろとかある様子。 / "#16335 (Document why you cannot iterate defaultdict in templates) – Django" code.djangoproject.com/ticket/16335
+
+---
+
+### Djangoでdefaultdictを使うとき
+
+- dictに変換する
+
+- `django.template.backends.jinja2.Jinja2`を使う
+
+https://docs.djangoproject.com/en/2.1/topics/templates/#django.template.backends.jinja2.Jinja2
+
+dictに変換するのが手軽でよさそう。
+
+---
