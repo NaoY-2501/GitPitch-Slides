@@ -5,7 +5,7 @@
 2018.12.11 みんなのPython勉強会#40
 横山 直敬(@NaoY_py)
 
----?include=common/whoami_pyconjp.md
+---?include=common/whoami_stapy.md
 
 ---
 
