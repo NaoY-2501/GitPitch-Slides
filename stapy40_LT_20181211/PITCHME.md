@@ -146,7 +146,7 @@ $ . env/bin/activate
 (env) $ python manage.py runserver
 ```
 
-[Djnago1.9.3](localhost:8000/)
+[Django1.9.3](localhost:8000/)
 
 ---
 
@@ -160,7 +160,7 @@ $ . env/bin/activate
 (env) $ python manage.py runserver
 ```
 
-[Djnago2.1.4](localhost:8001/)
+[Django2.1.4](localhost:8001/)
 
 ---
 
