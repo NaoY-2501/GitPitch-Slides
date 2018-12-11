@@ -138,7 +138,6 @@ return render(request, 'myapp/index.html', context)
 </body>
 </html>
 ```
-@[18-37](render defaultdict)
 
 ---
 
