@@ -153,7 +153,7 @@ $ . env/bin/activate
 
 [Django1.9.3](localhost:8000/)
 
----
++++
 
 ### Django 2.1.4でやってみる
 
@@ -167,7 +167,7 @@ $ . env/bin/activate
 
 [Django2.1.4](localhost:8001/)
 
----
++++
 
 **(´・ω・`)**
 
@@ -282,7 +282,7 @@ rendered = template.render(
 print(rendered)
 ```
 
----
++++
 
 ### 出来上がったHTML
 
@@ -353,7 +353,7 @@ print(rendered)
 </html>
 ```
 
----
++++
 
 **(｀・ω・´)**
 
@@ -365,11 +365,15 @@ print(rendered)
 
 - defaultdictとOrderedDictの実装の違い
 
-OrderedDict
++++
+
+### OrderedDict
 
 > 通常の dict メソッドをサポートする、辞書のサブクラスのインスタンスを返します。
 
-defaultdict
++++
+
+### defaultdict
 
 > 新しいディクショナリ様のオブジェクトを返します
 
@@ -395,5 +399,3 @@ defaultdict
 https://docs.djangoproject.com/en/2.1/topics/templates/#django.template.backends.jinja2.Jinja2
 
 dictに変換するのが手軽でよさそう。
-
----
