@@ -140,7 +140,7 @@ return render(request, 'myapp/index.html', context)
 
 ```
 $ pwd
-/Users/user/Python/works/advent_cal_2018/django_1.9.3\
+/Users/user/Python/works/advent_cal_2018/django_1.9.3
 $ . env/bin/activate
 (env) $ cd mysite/
 (env) $ python manage.py runserver
@@ -154,7 +154,7 @@ $ . env/bin/activate
 
 ```
 $ pwd
-/Users/user/Python/works/advent_cal_2018/django_2.1.4\
+/Users/user/Python/works/advent_cal_2018/django_2.1.4
 $ . env/bin/activate
 (env) $ cd mysite/
 (env) $ python manage.py runserver
