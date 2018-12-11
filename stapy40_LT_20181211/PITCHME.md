@@ -1,6 +1,6 @@
-## Djangoで
+### Djangoで
 
-## defaultdictがレンダリングできない件
+### defaultdictがレンダリングできない件
 
 2018.12.11 みんなのPython勉強会#40
 横山 直敬(@NaoY_py)
