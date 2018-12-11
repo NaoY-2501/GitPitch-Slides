@@ -80,6 +80,9 @@ context = {
 
 return render(request, 'myapp/index.html', context)
 ```
+@[8-13](dictionary)
+@[15-27](defaultdict)
+@[29-33](OrdetedDict)
     
 ---
     
@@ -135,6 +138,7 @@ return render(request, 'myapp/index.html', context)
 </body>
 </html>
 ```
+@[16-34](render defaultdict)
 
 ---
 
