@@ -121,7 +121,3 @@ Lx, Nx, Pxと表される
 `Pc`は`PunctuationConnector`
 
 直訳すると**句読点、接続**。文字ではない！
-
-
-
-
