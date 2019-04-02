@@ -124,6 +124,6 @@ Lx, Nx, Pxと表される
 
 ## ここまでのまとめ
 
-- Pythonにおける`\w`がマッチする範囲はとても広い
+- Pythonでは`\w`がマッチする範囲がとても広い
 
 - UnicodeのLetter + Number + アンダースコア
