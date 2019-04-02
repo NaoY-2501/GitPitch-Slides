@@ -82,6 +82,22 @@ Unicode上で`letters` (文字)と定義されてるものが含まれるよ!
 <re.Match object; span=(0, 1), match='あ'>
 ```
 
++++
+
+## ではアンダースコアはletters？
+
+```python
+>>> import unicodedata
+>>> unicodedata.name('_')
+'LOW LINE'
+>>> unicodedata.category('_')
+'Pc'
+```
+
+`Pc`は`PunctuationConnector`
+
+直訳すると**句読点、接続**。文字ではない！
+
 
 
 
