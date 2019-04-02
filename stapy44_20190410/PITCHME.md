@@ -62,7 +62,27 @@ Unicode上で`letters` (文字)と定義されてるものが含まれるよ!
 
 +++
 
-## 実際にやってみた
+## UnicodeのCategory
+
+Unicodeにおいて文字はカテゴリに分かれている
+
+`Letter, Number, Punctuation, ...`
+
+Lx, Nx, Pxと表される
+
+## Letterの種類
+
+- Lu : Uppercase(大文字)
+
+- Ll : Lowercase(小文字)
+
+- Lo : Other(その他)
+
+  - ひらがな, カタカナ, ヘブライ文字, アラビア文字, ハングル, ……
+
+など
+
+## Loをマッチさせてみる
 
 ```python
 >>> import re
