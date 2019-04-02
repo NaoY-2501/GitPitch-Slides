@@ -14,7 +14,15 @@
 
 +++
 
-**`\w`は日本語にもマッチする？**
+## ググると出てくる\wの定義
+
+**[a-zA-Z_0-9]**
+
+**半角英数とアンダースコア**
+
++++
+
+**では`\w`は日本語にもマッチする？**
 
 +++
 
@@ -35,5 +43,45 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 +++
 
-`\w`は半角英数とアンダースコアだったのでは…
+`\w`は半角英数とアンダースコアだったのでは……
+
+---
+
+## \wの正体
+
+> ユニコードパターンに対しては、 \w は unicodedata モジュールで提供されている
+Unicode データベースで letters としてマークされている全ての文字とマッチします。
+
+[Python3 公式ドキュメント - 正規表現 HOWTO](https://docs.python.org/ja/3/howto/regex.html#matching-characters)
+
++++
+
+## つまりどういうことだってばよ
+
+Unicode上で`letters` (文字)と定義されてるものが含まれるよ!
+
++++
+
+## 実際にやってみた
+
+```python
+>>> import re
+>>> p = re.compile(r'\w')
+>>> some_hebrew_chr = '\u05EA'
+>>> some_hebrew_chr
+'ת'
+>>> p.match(some_hebrew_chr)
+<re.Match object; span=(0, 1), match='ת'>
+>>> some_arabic_chr = '\u062E'
+>>> some_arabic_chr
+'خ'
+>>> p.match(some_arabic_chr)
+<re.Match object; span=(0, 1), match='خ'>
+>>> hiragana_a = '\u3042'
+>>> p.match(hiragana_a)
+<re.Match object; span=(0, 1), match='あ'>
+```
+
+
+
 
