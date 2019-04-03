@@ -126,7 +126,7 @@ Lx, Nx, Pxと表される
 
 ## 数字は？
 
-- Nd : Decima lDigit(10進数)
+- Nd : Decimal Digit(10進数)
 
 - Nl : Letter(数を表す文字)
 
@@ -195,11 +195,14 @@ Lx, Nx, Pxと表される
 
 +++
 
-## でもマッチします
+## でもマッチする
 
 ```python
-TODO: アンダースコアのマッチを書く
-
+>>> import re
+>>> p = re.compile(r'\w')
+>>> underscore = u'\u005F'
+>>> p.match(underscore)
+<re.Match object; span=(0, 1), match='_'>
 ```
 
 +++
