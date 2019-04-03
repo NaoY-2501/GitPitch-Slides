@@ -153,6 +153,10 @@ Lx, Nx, Pxと表される
 >>> p.match(devanagari_one)
 <re.Match object; span=(0, 1), match='१'>
 >>>
+>>> myanmar_two = '\u1042'  # Nd: ミャンマー数字
+>>> p.match(myanmar_two)
+<re.Match object; span=(0, 1), match='၂'>
+>>>
 >>> roman_three = '\u2162'  # Nl:ローマ数字
 >>> p.match(roman_three)
 <re.Match object; span=(0, 1), match='Ⅲ'>
