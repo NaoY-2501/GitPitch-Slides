@@ -109,20 +109,71 @@ Lx, Nx, Pxと表される
 ```python
 >>> import re
 >>> p = re.compile(r'\w')
->>> some_hebrew_chr = '\u05EA'
->>> some_hebrew_chr
-'ת'
+>>> some_hebrew_chr = '\u05EA'  # ヘブライ文字
 >>> p.match(some_hebrew_chr)
 <re.Match object; span=(0, 1), match='ת'>
->>> some_arabic_chr = '\u062E'
->>> some_arabic_chr
-'خ'
+>>>
+>>> some_arabic_chr = '\u062E'  #アラビア文字
 >>> p.match(some_arabic_chr)
 <re.Match object; span=(0, 1), match='خ'>
->>> hiragana_a = '\u3042'
+>>>
+>>> hiragana_a = '\u3042'  # ひらがな
 >>> p.match(hiragana_a)
 <re.Match object; span=(0, 1), match='あ'>
 ```
+
++++
+
+## 数字は？
+
+- Nd : Decima lDigit(10進数)
+
+- Nl : Letter(数を表す文字)
+
+    - ローマ数字など
+
+- No : Other(その他)
+
+    - 分数など
+
++++
+
+## 数字をマッチさせてみる
+
+```python
+>>> import re
+>>> p = re.compile('r\w')
+>>> digit_zero = '\u0030'  # Nd:アラビア数字
+>>> p.match(digit_zero)
+>>> p = re.compile(r'\w')
+>>> p.match(digit_zero)
+<re.Match object; span=(0, 1), match='0'>
+>>>
+>>> devanagari_one = '\u0967'  # Nd:デーヴァナーガリー数字(サンスクリット)
+>>> p.match(devanagari_one)
+<re.Match object; span=(0, 1), match='१'>
+>>>
+>>> roman_three = '\u2162'  # Nl:ローマ数字
+>>> p.match(roman_three)
+<re.Match object; span=(0, 1), match='Ⅲ'>
+>>>
+>>> hangzhou_four = '\u3024'  # Nl:蘇州号碼 
+>>> p.match(hangzhou_four)
+<re.Match object; span=(0, 1), match='〤'>
+>>>
+>>> circled_five = '\u2464'  # No:⑤
+>>> p.match(circled_five)
+<re.Match object; span=(0, 1), match='⑤'>
+>>>
+>>> superscript_two = '\u00b2'  # No:上付きの2
+>>> p.match(superscript_two)
+<re.Match object; span=(0, 1), match='²'>
+>>> 
+```
+
++++
+
+**「半角英数+アンダースコア」とはなんだったのか**
 
 +++
 
