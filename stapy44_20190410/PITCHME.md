@@ -54,7 +54,7 @@ Python 3.7.0 (default, Jun 29 2018, 20:14:27)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import re
 >>>
->>> p = re.compile(r'[\w]+')
+>>> p = re.compile(r'\w+')
 >>> s = '平成'
 >>> p.match(s)
 <re.Match object; span=(0, 2), match='平成'>
