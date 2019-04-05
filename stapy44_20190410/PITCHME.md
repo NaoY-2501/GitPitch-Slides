@@ -19,16 +19,17 @@
   
   - 共有しておこう！
   
-+++
-
-`\w`の話しかしません
-
-(でも`\W`にも少し触れます)
 
 +++
 
 **正規表現を普段よく使ってる人**
 
+
++++
+
+今日は`\w`の話をします
+
+(でも`\W`にも少し触れます)
 
 +++
 
@@ -77,6 +78,42 @@ Unicode データベースで letters としてマークされている全ての
 ## つまりどういうことだってばよ
 
 Unicode上で`letters` (文字)と定義されてるものが含まれるよ!
+
++++
+
+## Unicodeとは
+ 
+世界中の様々な文字に固有の番号をつけて管理している文字の集合
+
+- 番号をUnicodeコードポイントと呼ぶ
+
+- Unicodeコードポイントは16進数で表す
+
+- 例. `U+0061`は`a`を表す
+
++++
+
+## Python3の文字列はUnicode
+
+> 文字列はUnicode コードポイントのイミュータブルな シーケンス です。
+
+[Python3 組み込み型-テキストシーケンス型](https://docs.python.org/ja/3/library/stdtypes.html?text-sequence-type-str#text-sequence-type-str)
+
+## 文字列とUnicodeを相互に変換する
+
+文字列(str)はUnicodeコードポイントに変換できる
+
+```python
+>>> decimal = ord('a')  # 文字のUnicodeコードポイントを整数で返す
+>>> decimal
+97
+>>> hex(decimal)  # 97を16進数に変換する
+'0x61'
+>>> '\u0061'  # Unicodeとして表現
+'a'
+>>> chr(decimal)  # Unicodeコードポイントから文字を返す
+'a'
+```
 
 +++
 
