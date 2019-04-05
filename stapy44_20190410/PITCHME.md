@@ -299,7 +299,7 @@ TODO
 
 ---
 
-## \wと上手く付き合う
+## 正規表現と上手く付き合う
 
 - 文字・数字を広くマッチさせたいときは `\w`
 
@@ -307,8 +307,30 @@ TODO
 
     - `[ぁ-ん]`, `[ァ-ン]`を使う
     
-    - regexモジュールも有効
+    - Unicode文字プロパティも有効
     
 - 漢字だけ
 
-    - TODO
+    - Unicode文字プロパティがbetter
+    
+---
+
+## Reference(1)
+
+- [Python3 Unicode HOWTO](https://docs.python.org/ja/3/howto/unicode.html)
+
+- [Python3 正規表現 HOWTO](https://docs.python.org/ja/3/howto/regex.html)
+
+- [Python3 組み込み型-テキストシーケンス型](https://docs.python.org/ja/3/library/stdtypes.html?text-sequence-type-str#text-sequence-type-str)
+
+- [PyPI regex](https://pypi.org/project/regex/)
+
++++
+
+## Reference(2)
+
+- [Wikipedia Unicode](https://ja.wikipedia.org/wiki/Unicode)
+
+- [TechRacho \[連載:正規表現\] Unicode文字プロパティについて(1)](https://techracho.bpsinc.jp/hachi8833/2013_09_13/13433)
+
+- [FileFormat.info Unicode Charancter Categories](https://www.fileformat.info/info/unicode/category/index.htm)
