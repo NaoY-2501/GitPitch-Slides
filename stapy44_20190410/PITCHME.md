@@ -75,7 +75,7 @@ Unicode データベースで letters としてマークされている全ての
 
 +++
 
-## つまりどういうことだってばよ
+## つまり……
 
 Unicode上で`letters` (文字)と定義されてるものが含まれるよ!
 
@@ -208,7 +208,7 @@ Lx, Nx, Pxと表される
 >>> p.match(circled_five)
 <re.Match object; span=(0, 1), match='⑤'>
 >>>
->>> superscript_two = '\u00b2'  # No:上付きの2
+>>> superscript_two = '\u00B2'  # No:上付きの2
 >>> p.match(superscript_two)
 <re.Match object; span=(0, 1), match='²'>
 >>> 
@@ -251,3 +251,34 @@ Lx, Nx, Pxと表される
 - Pythonでは`\w`がマッチする範囲がとても広い
 
 - UnicodeのLetter + Number + アンダースコア
+
+    - **22,233**種類の文字にマッチする
+    
++++
+
+## \Wのマッチする範囲
+
+- 逆説的に`\w`ではマッチしない範囲
+
+- カテゴリ: Mark, Other, Punctuation, Separator, Symbol
+
++++
+
+```python
+>>> import re
+>>> p = re.compile(r'\W')
+>>> p.match('\u0061')  # Letter アルファベットa
+>>>
+>>> p.match('\u0030')  # Number アラビア数字0
+>>>
+>>> p.match('\u0CCA')  # Mark カンナダ語(インド)の母音記号(O)
+<re.Match object; span=(0, 1), match='ೊ'>
+>>> p.match('\u0000')  # Other Null
+<re.Match object; span=(0, 1), match='\x00'>
+>>> p.match('\u0040')  # Punctuation アットマーク
+<re.Match object; span=(0, 1), match='@'>
+>>> p.match('\u0020')  # Separator スペース
+<re.Match object; span=(0, 1), match=' '>
+>>> p.match('\u2318')  # Symbol Macのcmd記号(PLACE OF INTEREST)
+<re.Match object; span=(0, 1), match='⌘'>
+```
