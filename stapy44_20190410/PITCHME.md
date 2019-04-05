@@ -99,6 +99,8 @@ Unicode上で`letters` (文字)と定義されてるものが含まれるよ!
 
 [Python3 組み込み型-テキストシーケンス型](https://docs.python.org/ja/3/library/stdtypes.html?text-sequence-type-str#text-sequence-type-str)
 
++++
+
 ## 文字列とUnicodeを相互に変換する
 
 文字列(str)はUnicodeコードポイントに変換できる
