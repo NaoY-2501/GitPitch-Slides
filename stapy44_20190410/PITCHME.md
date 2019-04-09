@@ -391,6 +391,16 @@ import regex
 
 - [Wikipedia Unicode](https://ja.wikipedia.org/wiki/Unicode)
 
+- [Wikipedia Unicode Character Property](https://en.wikipedia.org/wiki/Unicode_character_property)
+
+- [Wikipedia ISO 15924](https://ja.wikipedia.org/wiki/ISO_15924)
+
 - [TechRacho \[連載:正規表現\] Unicode文字プロパティについて(1)](https://techracho.bpsinc.jp/hachi8833/2013_09_13/13433)
 
++++
+
+## Reference(3)
+
 - [FileFormat.info Unicode Charancter Categories](https://www.fileformat.info/info/unicode/category/index.htm)
+
+- [Qiita 正規表現での漢字マッチをUnicodeプロパティーを使って綺麗に書く方法 in Python](https://qiita.com/mhangyo/items/c567f93b0e20b2e6af04)
