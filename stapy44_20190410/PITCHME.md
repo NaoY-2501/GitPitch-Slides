@@ -276,14 +276,32 @@ Lx, Nx, Pxと表される
 
 +++
 
+## Q. すべてのLetter, Numberにマッチする？
+
+A. 一部例外もある
+
+```
+unicode_letters.csv
+match : 19978/20188
+unmatch : 210/20188
+unicode_numbers.csv
+match : 1653/1754
+unmatch : 101/1754
+unicode_punctuations.csv
+match : 1/156
+unmatch : 155/156
+```
+
++++
+
 ## ここまでのまとめ
 
 - Pythonでは`\w`がマッチする範囲がとても広い
 
 - UnicodeのLetter + Number + アンダースコア
 
-    - **20,000**以上の文字にマッチする
-    
+    -  **20,000**種類以上にマッチする
+
 ---
 
 ## \Wのマッチする範囲
