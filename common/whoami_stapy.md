@@ -22,3 +22,13 @@
 </tr>
 </table>
 
++++
+
+## お前誰よ
+
+- 横山 直敬/Naotaka Yokoyama
+
+- Twitter: [@NaoY_py](https://twitter.com/NaoY_py)
+
+- 好き: 銀塩写真/アニメ/アイドル(sora tob sakana, Maison book girl)
+
