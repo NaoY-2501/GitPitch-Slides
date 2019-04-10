@@ -72,9 +72,31 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 `\w`は半角英数とアンダースコアだったのでは……
 
++++
+
+## 参考. JavaScriptの\w
+
+半角英数とアンダースコアだけマッチする。
+
+```javascript
+const re = /\w+/;
+'abc'.match(re);
+["abc", index: 0, input: "abc", groups: undefined]0: "abc"groups: undefinedindex: 0input: "abc"length: 1__proto__: Array(0)
+'123'.match(re);
+["123", index: 0, input: "123", groups: undefined]
+'ab_123'.match(re);
+["ab_123", index: 0, input: "ab_123", groups: undefined]
+'Ab_123'.match(re);
+["Ab_123", index: 0, input: "Ab_123", groups: undefined]
+'ほげ'.match(re);
+null
+'①'.match(re);
+null
+```
+
 ---
 
-## \wの正体
+## Pythonにおける\wの正体
 
 > ユニコードパターンに対しては、 \w は unicodedata モジュールで提供されている
 Unicode データベースで letters としてマークされている全ての文字とマッチします。
@@ -334,6 +356,8 @@ Lx, Nx, Pxと表される
     - `Lm`に分類される
     
     - LetterModifier(修飾子)
+
+なにかいい方法は……
 
 +++
 
