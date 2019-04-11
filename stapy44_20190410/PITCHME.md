@@ -292,7 +292,9 @@ match : 1/156
 unmatch : 155/156
 ```
 
-リポジトリは後で貼っておきます！
+実際に確認してみた
+
+[stapy44_re_unicode_checker](https://github.com/NaoY-2501/stapy44_re_unicode_checker)
 
 +++
 
