@@ -1,5 +1,10 @@
 # GitPitch-Slides
 
+- みんなのPython勉強会 #44
+
+	- [Pythonにおける正規表現の話
+\wとUnicodeの意外な関係](https://gitpitch.com/NaoY-2501/GitPitch-Slides?p=stapy44_20190410#/)
+
 - みんなのPython勉強会 #34
 
 	- [PyCon JP 2018 スタッフ募集](https://gitpitch.com/NaoY-2501/GitPitch-Slides?p=stapy34_LT_20180403)
